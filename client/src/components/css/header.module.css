@@ -1,0 +1,36 @@
+.container {
+  background-color: rgb(87, 21, 35);
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote {
+  text-align: center;
+  padding: 5px;
+  color: rgb(230, 192, 123);
+}
+
+.search {
+  width: 270px;
+  height: 42px;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  margin: 12px;
+}
+
+.search::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.about {
+  color: rgb(230, 192, 123);
+  font-size: 20px;
+}

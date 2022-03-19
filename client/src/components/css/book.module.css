@@ -1,0 +1,46 @@
+.book {
+  border: 2px solid rgb(87, 21, 35);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 30px 15px;
+  position: relative;
+  box-shadow: 2px 4px 7px 2px rgba(105, 104, 104, 0.35);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book_title {
+  text-align: center;
+  padding: 10px 0;
+  margin: 50px 0;
+}
+
+.book_author {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+  padding: 3px 8px;
+  border: none;
+  opacity: 0.6;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.delete:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.delete:active {
+  transform: translateY(-1px);
+}
